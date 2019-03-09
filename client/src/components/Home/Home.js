@@ -3,6 +3,7 @@ import Carousel from './homeComponents/Carousel/Carousel';
 import Games from './homeComponents/Games/Games';
 import MoreGames from './homeComponents/moreGames/moreGames';
 import News from './homeComponents/News/News';
+import SocialFeed from './homeComponents/SocialFeed/SocialFeed';
 
 
 
@@ -14,6 +15,7 @@ class Home extends Component {
         <Games />
         <MoreGames />
         <News />
+        <SocialFeed />
     </div>
     )
   }
