@@ -5,9 +5,9 @@ class MoreGames extends Component {
       return (
         <div>
             <div class='container-fluid'>
-                <div class='row justify-content-center'>
-                    <div class='col-sm-2 space'>
-                        <button class='button'>More Games</button>
+                <div class='row space'>
+                    <div class='col-sm-12 text-center columnResponsive'>
+                        <button class='button ButtonResponsive'>MORE GAMES</button>
                     </div>
                 </div>
             </div>
