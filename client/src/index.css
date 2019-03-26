@@ -4,6 +4,20 @@ body {
   font-family: sans-serif;
 }
 /* -------------------Carousel-------------------- */
+.carousel {
+  height: 50%;
+  overflow: hidden;
+}
+
+.carousel-control-prev-icon {
+  width: 60px;
+  height: 100px;
+}
+
+.carousel-control-next-icon {
+  width: 60px;
+  height: 100px;
+}
 
 @media screen and (max-width: 500px) {
   .CarouselResponsive {
@@ -12,21 +26,432 @@ body {
   }
 }
 
+/* ---------------------ff14-------------------------- */
+
+.title_HomeCarousel_ff14 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+  float: left;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.title_HomeCarousel_ff142 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: left;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.buyNowBtnFf14 {
+  margin-top: 20px;
+  float: left;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-bottom: 160px;
+}
+
+.buyNowBtnFf14:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+.moreInfoBtnFf14 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.moreInfoBtnFf14:hover {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.719);
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+/* ------------------------NIER------------------------------- */
+
+.title_HomeCarousel_Nier {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  float: left;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.title_HomeCarousel_Nier2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  float: left;
+  margin-bottom:20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.buyNowBtnNier {
+  margin-top: 20px;
+  float: left;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-bottom: 160px;
+}
+
+.buyNowBtnNier:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+.moreInfoBtnNier {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.moreInfoBtnNier:hover {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.719);
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+/* ---------------------KINGDOMHEARTS3---------------------------------- */
+
+.title_HomeCarousel_kingdomHearts {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  float: left;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.title_HomeCarousel_kingdomHearts2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  float: left;
+  margin-bottom:20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.buyNowBtnKingdom {
+  margin-top: 20px;
+  float: left;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-bottom: 160px;
+}
+
+.buyNowBtnKingdom:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+.moreInfoBtnKingdom {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.moreInfoBtnKingdom:hover {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.719);
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+/* ---------------------CHOCOBO---------------------------------- */
+
+.title_HomeCarousel_chocobo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.title_HomeCarousel_chocobo2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+  float: left;
+  margin-bottom:20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.title_HomeCarousel_chocobo3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  float: left;
+  margin-bottom:20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.buyNowBtnChocobo {
+  margin-top: 20px;
+  float: left;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-bottom: 160px;
+}
+
+.buyNowBtnChocobo:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+.moreInfoBtnChocobo {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.moreInfoBtnChocobo:hover {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.719);
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+/* ---------------------DRAGONQUEST---------------------------------- */
+
+.title_HomeCarousel_dragonquest {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.title_HomeCarousel_dragonquest2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  float: left;
+  margin-bottom: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.buyNowBtnDragon {
+  float: left;
+  margin-bottom: 100px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.buyNowBtnDragon:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+.moreInfoBtnDragon {
+  float: left;
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.moreInfoBtnDragon:hover {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.719);
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+/* ---------------------ONINAKI---------------------------------- */
+
+.title_HomeCarousel_oninaki {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  float: left;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.title_HomeCarousel_oninaki2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  float: left;
+  margin-bottom: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.moreInfoBtnOninaki {
+  float: left;
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  transition: 0.5s;
+  margin-bottom: 200px;
+}
+
+.moreInfoBtnOninaki:hover {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.719);
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+
 
 /* -------------------Games-------------------- */
 .row {
   display: flex;
 }
 
-.GameImg {
+.float {
   float: left;
   padding: 0px;
 }
 
-.item {
+.gameImage {
   width: 100%;
   height: 100%;
+  transition: 1s ease-out;
 }
+
+.gameImage:hover {
+  height: 105%;
+  width: 105%;
+  color: white;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+.container2 {
+  width: 200px;
+  height: 500px;
+  overflow: hidden;
+}
+
 
 @media screen and (max-width: 500px) {
   .GameImagesResponsive {
@@ -41,7 +466,7 @@ body {
   padding-bottom: 40px;
 }
 
-.button {
+.gamesButton {
   background-color: #e7e7e7;
   color: black;
   border: none;
@@ -53,7 +478,16 @@ body {
   font-family: 'Times New Roman', Times, serif;
   display: inline-block;
   font-size: 22px;
+  transition: 0.5s;
 }
+
+.gamesButton:hover {
+  transform: scale(0.95); 
+  transition: 0.5s;
+  color: rgba(255, 0, 0, 0.719);
+  text-decoration: none;
+ }
+
 
 @media screen and (max-width: 500px) {
   .ButtonResponsive {
@@ -85,8 +519,22 @@ body {
 
 .newsImages {
   width: 100%;
-  height: 75%;
+  height: 450px;
   padding: 5px;
+  transition: 0.3s ease-out;
+}
+
+.colorHover:hover {
+  color: rgba(255, 0, 0, 0.719);
+}
+
+.newsImages:hover {
+  height: 451px;
+  width: 100%;
+  color: white;
+  opacity: 0.9;
+  overflow: hidden;
+  transition: 0.3s;
 }
 
 .newsHeader {
@@ -98,6 +546,7 @@ body {
   margin: 10px;
   font-weight: bold;
   font-size: 22px;
+  transition: 0.3s ease-out;
 }
 
 .moreNewsBtn {
@@ -112,7 +561,16 @@ body {
   font-family: 'Times New Roman', Times, serif;
   display: inline-block;
   font-size: 22px;
+  transition: 0.5s;
 }
+
+.moreNewsBtn:hover {
+  transform: scale(0.95); 
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+  
+ }
 
 .spaceTop2 {
   padding-top: 50px;
@@ -151,11 +609,25 @@ body {
 
 /* -------------------Social Feed-------------------- */
 
+.socialBackground {
+  background-color: #e7e7e7;
+  padding: 20px;
+  width: 20px;
+  height: 600px;
+  margin: 15px;
+}
 
+.avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
 
-
-
-
+.socialInfo {
+  font-size: 30px;
+  padding: 20px;
+}
 
 .viewMoreBtn {
   background-color: #e7e7e7;
@@ -169,4 +641,152 @@ body {
   font-family: 'Times New Roman', Times, serif;
   display: inline-block;
   font-size: 22px;
+  transition: 0.5s;
 }
+
+.viewMoreBtn:hover {
+   text-decoration: none;
+   transform: scale(0.95); 
+   transition: 0.5s;
+   color: rgba(255, 0, 0, 0.719);
+  }
+
+  @media screen and (max-width: 500px) {
+    .viewMoreBtnResponsive {
+      width: 100%;
+      padding-top: 5px;
+    }
+  }
+
+/* -------------------Connect-------------------- */
+
+
+.connectBackground {
+  background-color: rgb(70, 70, 70);
+  height: 100%;
+}
+
+.connectStyle {
+  font-style: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 25px;;
+  font-weight: bold;
+}
+
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+.connectspace {
+  margin-top: 50px;
+  margin-left: 5px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  transition: 0.3s;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+.fa-facebook {
+background: #e7e7e7;
+color: rgb(128, 128, 128);
+height: auto;
+width: 10%;
+margin-left: 20px;
+margin-right: 20px;
+text-decoration: none;
+}
+
+.fa-twitter {
+  background: #e7e7e7;
+  color: rgb(128, 128, 128);
+  height: auto;
+  width: 10%;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.fa-youtube {
+  background: #e7e7e7;
+  color: rgb(128, 128, 128);
+  height: auto;
+  width: 10%;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.fa-twitch {
+  background: #e7e7e7;
+  color: rgb(128, 128, 128);
+  height: auto;
+  width: 10%;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.fa-instagram {
+  background: #e7e7e7;
+  color: rgb(128, 128, 128);
+  height: auto;
+  width: 10%;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.fa-subscribe {
+  background: #e7e7e7;
+  color: rgb(128, 128, 128);
+  height: auto;
+  width: auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* -------------------Footer-------------------- */
+.tag:hover {
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.tag {
+  color: white;
+  text-decoration: none;
+}
+
+.legalBox {
+  background-color: black;
+  color: white;
+}
+
+.legalBoxSize1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.privacyImg {
+  float: right;
+  height: 120px;
+  width: auto;
+}
+
+.privacyRight {
+  margin-top: 23%;
+  margin-right: 3%;
+}
+
+

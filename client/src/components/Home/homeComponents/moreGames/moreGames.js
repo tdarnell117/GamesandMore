@@ -7,7 +7,7 @@ class MoreGames extends Component {
             <div class='container-fluid'>
                 <div class='row space'>
                     <div class='col-sm-12 text-center columnResponsive'>
-                        <button class='button ButtonResponsive'>MORE GAMES</button>
+                        <a class='gamesButton ButtonResponsive' href='https://square-enix-games.com/en_US/games'>MORE GAMES</a>
                     </div>
                 </div>
             </div>
